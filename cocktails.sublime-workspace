@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"whit",
+				"white-space:   (property)"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"Jur",
+				"JuraItalic"
+			],
+			[
+				"Jr",
+				"JuraBold"
+			],
+			[
+				"Ost",
+				"OstrichSansBold"
+			],
+			[
+				"first-",
+				"first-letter  (pseudo-class)"
+			],
+			[
+				"commen",
+				"comment-author-avatar"
+			],
+			[
+				"background-c",
+				"background-color:   (property)"
+			],
+			[
+				"tr",
+				"textarea  (element)"
+			],
+			[
+				"Jura",
+				"JuraRegular"
+			],
+			[
+				"list-s",
+				"list-style-type:   (property)"
+			],
+			[
+				"border",
+				"border	border: size style color"
+			],
+			[
+				"back",
+				"background:   (property)"
+			],
+			[
+				"add",
+				"addClass  (function)"
+			],
+			[
+				"link",
+				"link-blue-light"
+			],
+			[
+				"OstrichSan",
+				"OstrichSansBlack"
+			],
+			[
+				"fon",
+				"font	font: size font"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"nav",
+				"navy-blue"
+			],
+			[
+				"backg",
+				"background	background-color: hex"
+			],
+			[
+				"read",
+				"ready	document ready (safe)"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ready",
+				"ready	document ready - jQuery"
+			],
+			[
+				"re",
+				"ready	document ready - jQuery"
+			],
+			[
+				"jquery",
+				"jquery	<script> (jQuery google ajax api)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sidebar.php",
+			"settings":
+			{
+				"buffer_size": 2657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 7453,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/1140.css",
+			"settings":
+			{
+				"buffer_size": 2330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/ie.css",
+			"settings":
+			{
+				"buffer_size": 304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"package cont",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"jquery",
+				"Snippet: Instert script tag with latest jQuery source."
+			],
+			[
+				"snippet docum",
+				"Snippet: document ready - jQuery"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"s",
+				"Sort Lines"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Martin/Dropbox/Development/themes/imbibe/css/style.less",
+		"/Users/Martin/Dropbox/Development/themes/imbibe/js/cocktails.js",
+		"/Users/Martin/Dropbox/Development/themes/martin-brennan/style.css",
+		"/Users/Martin/Dropbox/Development/repos/documentr/,gitignore",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/gallery.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/index.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/page.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/single.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/sidebar.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/404.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/css/style.less",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/header.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/archive.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/about.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/functions.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/footer.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/style.css",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/css/fonts.css",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/css/archive.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/searchform.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/comments.php",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/js/cocktails.js",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/style.less",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/style.less.css",
+		"/Applications/MAMP/localhost-root/cocktails/wp-content/themes/cocktails/css/style.css",
+		"/Users/Martin/Desktop/plugin.html",
+		"/Users/Martin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Martin/Downloads/Code/App_Code/MP4DownloadHandler.cs",
+		"/Users/Martin/Downloads/Code/App_Code/ZIPDownloadHandler.cs",
+		"/Users/Martin/Downloads/Code/Default.aspx.cs",
+		"/Users/Martin/Downloads/Code/Default.aspx",
+		"/Users/Martin/Downloads/Code/App_Code/RangeRequestHandlerBase.cs",
+		"/Users/Martin/Documents/Visual Studio 2010/Projects/LMS/lms.gitignore",
+		"/Users/Martin/Web-Development/code-testing-ground/html5-audio/index.html",
+		"/Users/Martin/Library/Application Support/Sublime Text 2/Packages/User/GetJQuery.sublime-snippet",
+		"/Users/Martin/Web-Development/code-testing-ground/html5-audio/css/style.css",
+		"/Users/Martin/Library/Application Support/Sublime Text 2/Packages/User/GetJQuery",
+		"/Users/Martin/Web-Development/code-testing-ground/html5-audio/css/style",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/todo.gitignore",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/index.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/done.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/lib/task.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/global.config.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/dev.config.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/production.config.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/js/task.js",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/templates/header.php",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/README.md",
+		"/Users/Martin/Web-Development/git-repos/code-challenge-todo/lib/global.config.php",
+		"/Users/Martin/Web-Development/git-repos/public-code-projects/html-table-generator/tablegenerator.html",
+		"/Users/Martin/Web-Development/git-repos/public-code-projects/html-table-generator/css/style.css",
+		"/Applications/MAMP/localhost-root/fourfoodies/wp-content/themes/four-foodies/css/mainstyle.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"li",
+			"white",
+			"ghost",
+			"ghos",
+			"<pre><code>",
+			"YOURUSERNAME",
+			"404",
+			"submit",
+			"button",
+			"fonts.css",
+			"side",
+			"(); ?>",
+			"\">",
+			"( '",
+			"comments_number",
+			"\" /><?",
+			">",
+			";",
+			"left",
+			"options",
+			"			                }",
+			"options",
+			"foreach",
+			";",
+			"$config(\"database\")",
+			"$config(\"password\")",
+			"$config(\"username\")",
+			"$config(\"server\")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<pre><code class=\"bash\">",
+			"$config[\"database\"]",
+			"$config[\"password\"]",
+			"$config[\"username\"]",
+			"$config[\"server\"]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sidebar.php",
+					"settings":
+					{
+						"buffer_size": 2657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.less",
+					"settings":
+					{
+						"buffer_size": 7453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7126,
+								7126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/1140.css",
+					"settings":
+					{
+						"buffer_size": 2330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1836,
+								1838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1449.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/ie.css",
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								898
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true
+}
