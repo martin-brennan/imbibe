@@ -462,7 +462,8 @@ p.fourcontent {
 	width: 370px;
 }
 
-@media all and (max-device-width: 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	#sidebar {
 		display: none !important;
 	}
@@ -479,7 +480,7 @@ p.fourcontent {
 	}
 }
 
-@media all and (max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 	#sidebar {
 		display: none !important;
 	}
