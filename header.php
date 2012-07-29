@@ -24,7 +24,6 @@
 		  })();
 
 		</script>
-		<meta name="description" content="blog for those amongst us who are discerning with our choice of liquor and are avid mixologists. This blog contains cocktail, beer, wine and bar reviews by two fellows living in Brisbane who love to imbibe." />
 	</head>
 	<body>
 		<div id="fb-root"></div>
