@@ -1,0 +1,661 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Global styles */
+/* line 21, ../sass/screen.scss */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/* line 25, ../sass/screen.scss */
+body {
+  background-color: #f4f3ef;
+  font-family: "JuraRegular", serif;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+/* line 32, ../sass/screen.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 36, ../sass/screen.scss */
+.hide {
+  display: none;
+}
+
+/* line 40, ../sass/screen.scss */
+::selection {
+  background: #cc5632;
+}
+
+/* line 43, ../sass/screen.scss */
+::-moz-selection {
+  background: #cc5632;
+}
+
+/* Headings and font styles and colour variants */
+/* line 48, ../sass/screen.scss */
+h1, h1 a, h1 a:visited {
+  font: 140px/1em "OstrichSansBlack", sans-serif;
+  color: #000;
+}
+
+/* line 53, ../sass/screen.scss */
+h2 {
+  font: 50px/1em "OstrichSansMedium", sans-serif;
+  margin: 0 0 10px 0;
+  color: #000;
+  letter-spacing: 14px;
+}
+
+/* line 60, ../sass/screen.scss */
+h3 {
+  font: 36px/1em "OstrichSansBlack", sans-serif;
+  margin: 25px 0;
+  color: #000;
+}
+
+/* line 66, ../sass/screen.scss */
+h4 {
+  font: 24px/1em "JuraBold", serif;
+  color: #000;
+  margin: 20px 0;
+}
+
+/* line 72, ../sass/screen.scss */
+h1.navy, h1.navy a, h1.navy a:visited, h2.navy, h2.navy a, h2.navy a:visited {
+  color: #161f5f;
+}
+
+/* line 76, ../sass/screen.scss */
+h1.red, h1.red a, h1.red a:visited, h2.red, h2.red a, h2.navy a:visited {
+  color: #cc5632;
+}
+
+/* line 80, ../sass/screen.scss */
+p {
+  font: 16px/2em "JuraRegular", serif;
+  color: #000;
+  margin: 10px 0;
+}
+
+/* line 86, ../sass/screen.scss */
+blockquote {
+  border-left: 3px solid #555555;
+  padding: 0 20px;
+  margin: 15px 30px;
+}
+
+/* line 92, ../sass/screen.scss */
+blockquote p {
+  font: 16px/1.6em "JuraItalic", serif;
+  color: #555;
+}
+
+/* List and table styles */
+/* line 98, ../sass/screen.scss */
+ul {
+  list-style-type: disc;
+  margin: 15px 30px;
+}
+
+/* line 103, ../sass/screen.scss */
+ol {
+  list-style-type: decimal;
+  margin: 15px 30px;
+}
+
+/* line 108, ../sass/screen.scss */
+li strong {
+  font-family: "JuraBold", sans-serif;
+  font-weight: bold;
+}
+
+/* line 113, ../sass/screen.scss */
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+/* line 119, ../sass/screen.scss */
+th {
+  background-color: #000;
+  font: 16px "OstrichSansBlack";
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* line 127, ../sass/screen.scss */
+td {
+  font: 16px/1.8em "JuraRegular";
+  color: #000;
+  padding: 10px;
+  text-align: left;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/* line 136, ../sass/screen.scss */
+tr:nth-child(odd) {
+  background-color: #e6e5e0;
+}
+
+/* Comments styles */
+/* line 141, ../sass/screen.scss */
+table.comments-structure {
+  margin: 10px 0 0 0;
+  border: 0;
+  width: 100%;
+}
+
+/* line 147, ../sass/screen.scss */
+.comments-structure tr {
+  background-color: transparent;
+}
+
+/* line 151, ../sass/screen.scss */
+.comments-structure td {
+  padding: 5px;
+  border: 0;
+  vertical-align: middle;
+}
+
+/* line 157, ../sass/screen.scss */
+.comments-structure td p {
+  font: 16px "JuraRegular", serif;
+  margin: 5px 0;
+}
+
+/* line 162, ../sass/screen.scss */
+.comments-structure input[type="text"], .comments-structure textarea {
+  padding: 5px;
+  font: 16px "JuraRegular", serif;
+}
+
+/* line 167, ../sass/screen.scss */
+.comments-structure textarea {
+  width: 100%;
+}
+
+/* line 171, ../sass/screen.scss */
+p.form-submit {
+  margin: 0;
+}
+
+/* line 175, ../sass/screen.scss */
+.comments-structure label {
+  font: 22px "OstrichSansBlack", serif;
+}
+
+/* line 179, ../sass/screen.scss */
+li.comment {
+  border-top: 3px solid #555555;
+  border-bottom: 3px solid #555555;
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+/* line 186, ../sass/screen.scss */
+.comment-author-avatar {
+  width: 84px;
+  float: left;
+}
+
+/* line 191, ../sass/screen.scss */
+.comment-author-avatar img {
+  border: 5px solid #555555;
+}
+
+/* line 195, ../sass/screen.scss */
+.comment-item-wrap {
+  float: left;
+  padding: 10px;
+  width: 600px;
+}
+
+/* line 201, ../sass/screen.scss */
+.bypostauthor {
+  border-top: 3px solid #cc5632 !important;
+  border-bottom: 3px solid #cc5632 !important;
+}
+
+/* line 206, ../sass/screen.scss */
+.bypostauthor img {
+  border: 5px solid #cc5632 !important;
+}
+
+/* Navigation & link styles */
+/* line 211, ../sass/screen.scss */
+a {
+  text-decoration: none !important;
+  color: #5889db;
+  cursor: pointer !important;
+}
+
+/* line 217, ../sass/screen.scss */
+a:visited {
+  color: #7694c5;
+}
+
+/* Font weight and emphasis styles */
+/* line 222, ../sass/screen.scss */
+p strong {
+  font-family: "JuraBold";
+}
+
+/* line 226, ../sass/screen.scss */
+p em {
+  font-family: "JuraItalic";
+}
+
+/* Page Header styles */
+/* line 231, ../sass/screen.scss */
+#header {
+  height: 200px;
+  width: 100%;
+  margin: 40px 0 80px 0;
+  background: url(../img/logo.png) center center no-repeat transparent;
+}
+
+/* line 238, ../sass/screen.scss */
+.nav-left a, .nav-right a {
+  font: 48px "OstrichSansBlack", sans-serif;
+  color: #000;
+  margin: 85px 30px 0 30px;
+  display: inline-block;
+}
+
+/* line 245, ../sass/screen.scss */
+.nav-left {
+  height: 200px;
+  float: left;
+}
+
+/* line 250, ../sass/screen.scss */
+.nav-right {
+  height: 200px;
+  float: right;
+}
+
+/* Page content styles */
+/* line 256, ../sass/screen.scss */
+.post-area {
+  margin: 0 0 50px 0;
+}
+
+/* line 260, ../sass/screen.scss */
+.post-area img {
+  border: 10px solid black;
+}
+
+/* line 264, ../sass/screen.scss */
+.post-meta img {
+  border: 0 !important;
+}
+
+/* line 268, ../sass/screen.scss */
+.wp-caption-text {
+  font: 18px/1.6em "JuraBold", serif;
+  margin: 0;
+}
+
+/* line 273, ../sass/screen.scss */
+.post-meta {
+  font: 22px/1.6em "JuraRegular", serif;
+  float: right;
+}
+
+/* line 278, ../sass/screen.scss */
+.post-meta a {
+  color: #000;
+}
+
+/* line 282, ../sass/screen.scss */
+p.post-meta {
+  margin: 0 0 10px 0;
+}
+
+/* line 286, ../sass/screen.scss */
+.post-meta em {
+  font-family: "JuraBoldItalic", serif;
+}
+
+/* line 290, ../sass/screen.scss */
+.dd_button {
+  float: left;
+}
+
+/* line 294, ../sass/screen.scss */
+.categories {
+  float: right;
+}
+
+/* line 298, ../sass/screen.scss */
+p.categories {
+  margin: 0;
+}
+
+/* Image float/wrap styles */
+/* line 303, ../sass/screen.scss */
+.alignleft {
+  float: left;
+  margin: 10px 15px 5px 0;
+  text-align: center;
+}
+
+/* line 309, ../sass/screen.scss */
+.alignright {
+  float: right;
+  margin: 10px 0 5px 15px;
+  text-align: center;
+}
+
+/* line 315, ../sass/screen.scss */
+.aligncenter {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Sidebar styles */
+/* line 321, ../sass/screen.scss */
+.search-side {
+  margin: 20px 0;
+}
+
+/* line 325, ../sass/screen.scss */
+.search-side input[type="text"], #FSContact1 input {
+  font: 16px "JuraRegular", serif;
+  padding: 5px;
+  width: 250px;
+  border: 1px solid #dddddd;
+}
+
+/* line 332, ../sass/screen.scss */
+ul.recent-posts {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* line 338, ../sass/screen.scss */
+ul.recent-posts li {
+  padding: 5px 0;
+}
+
+/* line 342, ../sass/screen.scss */
+p.about-side:first-letter {
+  font: 68px "OstrichSansBold", sans-serif;
+  float: left;
+  margin: 6px 4px 0 0;
+}
+
+/* line 348, ../sass/screen.scss */
+div.about-side {
+  margin: 20px 0;
+}
+
+/* line 352, ../sass/screen.scss */
+input[type="submit"] {
+  font: 16px "JuraBold", serif !important;
+  padding: 5px 10px !important;
+  background-color: #cc5632;
+  color: #fff;
+  border: 1px solid #a43c1c !important;
+}
+
+/* line 360, ../sass/screen.scss */
+.tag-cloud a:hover {
+  font-family: "JuraItalic", serif;
+}
+
+/* 404 styles */
+/* line 365, ../sass/screen.scss */
+p.fourcontent {
+  font-size: 24px !important;
+}
+
+/* line 369, ../sass/screen.scss */
+.four-wrap {
+  background: url(../img/404-bg.png) no-repeat right center;
+  height: 500px;
+  padding: 20px 0;
+}
+
+/* line 375, ../sass/screen.scss */
+.search-404 {
+  margin: 20px 0;
+}
+
+/* line 379, ../sass/screen.scss */
+.search-404 input[type="text"] {
+  font: 32px "JuraRegular", serif;
+  padding: 10px;
+  width: 600px;
+  border: 1px solid #dddddd;
+}
+
+/* line 386, ../sass/screen.scss */
+.four-wrap input[type="submit"] {
+  font: 32px "JuraRegular", serif !important;
+  padding: 8px !important;
+  background-color: #cc5632;
+  color: #fff;
+  border: 1px solid #a43c1c !important;
+  margin: 0 10px;
+}
+
+/* Archive page styles */
+/* line 396, ../sass/screen.scss */
+.categories {
+  float: none;
+}
+
+/* Gallery styles */
+/* line 401, ../sass/screen.scss */
+.gallery-item {
+  width: auto !important;
+  padding-right: 20px;
+}
+
+/* Footer styles */
+/* line 407, ../sass/screen.scss */
+#footer {
+  height: 250px;
+  padding: 80px 20px 60px 20px;
+}
+
+/* line 412, ../sass/screen.scss */
+.footer-title {
+  font: 72px "OstrichSansBold", sans-serif;
+  margin-bottom: 10px;
+}
+
+/* line 417, ../sass/screen.scss */
+.footer-greeting {
+  font: 24px "JuraRegular", serif;
+}
+
+/* line 421, ../sass/screen.scss */
+.footer-nav {
+  height: 70px;
+  padding-left: 50px;
+  background: url(../img/logo-small.png) left center no-repeat;
+  margin: 20px 0;
+}
+
+/* line 428, ../sass/screen.scss */
+.footer-nav ul {
+  list-style-type: none;
+  margin: 10px 0 0 15px;
+  display: inline-block;
+}
+
+/* line 434, ../sass/screen.scss */
+.footer-nav ul li {
+  float: left;
+  padding-right: 30px;
+}
+
+/* line 439, ../sass/screen.scss */
+.copyright {
+  font: 14px "JuraRegular", serif;
+  margin: 0 0 0 15px;
+}
+
+/* line 444, ../sass/screen.scss */
+.footer-nav ul li a {
+  font: 22px "OstrichSansBlack", sans-serif;
+  color: #000;
+}
+
+/* line 449, ../sass/screen.scss */
+.contact textarea, .contact input[type="text"], .contact input {
+  width: 350px;
+  padding: 5px;
+  font: 16px "JuraRegular", serif;
+}
+
+/* line 455, ../sass/screen.scss */
+.contact textarea {
+  height: 100px;
+}
+
+/* line 459, ../sass/screen.scss */
+.contact label {
+  font: 22px "OstrichSansBlack", serif;
+}
+
+/* line 463, ../sass/screen.scss */
+#text-2 {
+  list-style-type: none;
+}
+
+/* line 467, ../sass/screen.scss */
+#fsc-submit-1 {
+  width: 385px !important;
+}
+
+/* line 471, ../sass/screen.scss */
+#FSContact1 input, #FSContact1 textarea {
+  font: 16px "JuraRegular", serif !important;
+  padding: 5px !important;
+  border: 1px solid #dddddd;
+  width: 370px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 480, ../sass/screen.scss */
+  #sidebar {
+    display: none !important;
+  }
+
+  /* line 483, ../sass/screen.scss */
+  p {
+    font: 28px/2em "JuraRegular", serif !important;
+    color: #000;
+    margin: 10px 0;
+  }
+
+  /* line 488, ../sass/screen.scss */
+  #mobile-footer {
+    display: block !important;
+  }
+
+  /* line 491, ../sass/screen.scss */
+  #screen-footer {
+    display: none !important;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  /* line 497, ../sass/screen.scss */
+  #sidebar {
+    display: none !important;
+  }
+
+  /* line 500, ../sass/screen.scss */
+  p {
+    font: 28px/2em "JuraRegular", serif !important;
+    color: #000;
+    margin: 10px 0;
+  }
+
+  /* line 505, ../sass/screen.scss */
+  #mobile-footer {
+    display: block !important;
+  }
+
+  /* line 508, ../sass/screen.scss */
+  #screen-footer {
+    display: none !important;
+  }
+}

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php wp_title(''); ?></title>
-		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
 		<!-- Import stylesheets -->
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/ie.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/styles.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/1140.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/fonts.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/ie.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/styles.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/1140.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/ie.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/print.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/screen.css" type="text/css" />
+		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/fonts.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript">
