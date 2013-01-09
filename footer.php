@@ -17,7 +17,7 @@
 						<li><a href="/about/">About</a></li>
 						<li><a href="/gallery/">Gallery</a></li>
 					</ul>
-					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan 2012</p>
+					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan <?php echo strftime("%Y"); ?></p>
 				</div>
 			</div>
 			<div class="onecol">
@@ -32,7 +32,8 @@
 			</div>
 		</div>
 		<div id="mobile-footer" class="row" style="display: none">
-			<div class="twelvecol">
+			<div class="threecol"></div>
+			<div class="sixcol">
 				<div class="footer-nav">
 					<ul>
 						<li><a href="/">Home</a></li>
@@ -40,9 +41,10 @@
 						<li><a href="/about/">About</a></li>
 						<li><a href="/gallery/">Gallery</a></li>
 					</ul>
-					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan 2012</p>
+					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan <?php echo strftime("%Y"); ?></p>
 				</div>
 			</div>
+			<div class="threecol"></div>
 		</div>
 	</div>
 	<!-- Load javascript files -->

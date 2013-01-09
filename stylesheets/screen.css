@@ -344,7 +344,7 @@ p em {
 .nav-small a {
   font: 24px "OstrichSansBlack", sans-serif;
   color: #000;
-  margin: 50px 0 0 0;
+  margin: 120px 0 0 15px;
   display: inline-block;
   height: 50px;
 }
