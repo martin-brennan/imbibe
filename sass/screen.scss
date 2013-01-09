@@ -245,7 +245,7 @@ p em {
 
 .nav-small {
 	text-align: center;
-	&.a {
+	a {
 		font: 24px "OstrichSansBlack", sans-serif;
 		color: #000;
 		margin: 50px 0 0 0;
@@ -306,8 +306,8 @@ p.post-meta {
 	font-family: "JuraBoldItalic", serif;
 }
 
-.dd_button {
-	float: left;
+.post-share {
+	margin: 20px 0;
 }
 
 .categories {

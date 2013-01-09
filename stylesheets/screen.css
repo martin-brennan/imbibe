@@ -341,7 +341,7 @@ p em {
   text-align: center;
 }
 /* line 248, ../sass/screen.scss */
-.nav-small.a {
+.nav-small a {
   font: 24px "OstrichSansBlack", sans-serif;
   color: #000;
   margin: 50px 0 0 0;
@@ -413,8 +413,8 @@ p.post-meta {
 }
 
 /* line 309, ../sass/screen.scss */
-.dd_button {
-  float: left;
+.post-share {
+  margin: 20px 0;
 }
 
 /* line 313, ../sass/screen.scss */

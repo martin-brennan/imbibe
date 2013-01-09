@@ -22,12 +22,8 @@
 						<!-- Post content up until <!--more>-->
 						<div class="post-area">
 							<!-- Author and date of the post, as well as edit link. -->
-							<p class="post-meta">Written by <em><?php the_author(); ?></em> on <em><?php the_time('F, j Y'); ?></em>&nbsp;
-								<a href="<?php comments_link(); ?>">
-									<img src="<?php bloginfo('template_url'); ?>/img/comment.png" alt="comments" />&nbsp;<?php comments_number( '0', '1', '%' ); ?>
-								</a>.
-							</p>
-							<div class="clearfix"></div>
+							<p class="post-meta">Written by <em><?php the_author(); ?></em> on <em><?php the_time('F, j Y'); ?></em></p>
+							<div class="post-share"><?php dd_fblike_generate('Like Button Count') ?><?php dd_twitter_generate('Compact','twitter_username') ?><?php dd_google1_generate('Compact (20px)') ?></div>
 
 							<!-- Post content -->
 							<?php the_content("Read on..."); ?>
