@@ -236,7 +236,7 @@ p em {
 }
 
 .smallheader {
-	height: 50px;
+	height: 100px;
 	width: 100%;
 	margin: 40px 0 80px 0;
 	background: url(../img/logo-small-mob.png) center center no-repeat transparent;
@@ -244,11 +244,14 @@ p em {
 }
 
 .nav-small {
-	font: 24px "OstrichSansBlack", sans-serif;
-	color: #000;
-	margin: 50px 0 0 0;
-	display: inline-block;
-	height: 50px;
+	text-align: center;
+	&.a {
+		font: 24px "OstrichSansBlack", sans-serif;
+		color: #000;
+		margin: 50px 0 0 0;
+		display: inline-block;
+		height: 50px;
+	}
 }
 
 .nav-left a, .nav-right a {
@@ -501,8 +504,11 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 		color: #000;
 		margin: 10px 0;
 	}
-	h1 {
+	h1, h1 a, h1 a:visited {
 		font: 26px/1em "OstrichSansBlack", sans-serif;
+	}
+	h2 {
+		font: 22px/1em "OstrichSansMedium", sans-serif;
 	}
 	#mobile-footer {
 		display: block !important;
@@ -527,8 +533,11 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 		color: #000;
 		margin: 10px 0;
 	}
-	h1 {
+	h1, h1 a, h1 a:visited {
 		font: 26px/1em "OstrichSansBlack", sans-serif;
+	}
+	h2 {
+		font: 22px/1em "OstrichSansMedium", sans-serif;
 	}
 	#mobile-footer {
 		display: block !important;
