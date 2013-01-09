@@ -228,11 +228,27 @@ p em {
 }
 
 /* Page Header styles */
-#header {
+.header {
 	height: 200px;
 	width: 100%;
 	margin: 40px 0 80px 0;
 	background: url(../img/logo.png) center center no-repeat transparent;
+}
+
+.smallheader {
+	height: 50px;
+	width: 100%;
+	margin: 40px 0 80px 0;
+	background: url(../img/logo-small-mob.png) center center no-repeat transparent;
+	display: none;
+}
+
+.nav-small {
+	font: 24px "OstrichSansBlack", sans-serif;
+	color: #000;
+	margin: 50px 0 0 0;
+	display: inline-block;
+	height: 50px;
 }
 
 .nav-left a, .nav-right a {
@@ -481,15 +497,24 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 		display: none !important;
 	}
 	p {
-		font: 28px/2em "JuraRegular", serif !important;
+		font: 20px/2em "JuraRegular", serif !important;
 		color: #000;
 		margin: 10px 0;
+	}
+	h1 {
+		font: 26px/1em "OstrichSansBlack", sans-serif;
 	}
 	#mobile-footer {
 		display: block !important;
 	}
 	#screen-footer {
 		display: none !important;
+	}
+	.header {
+		display: none;
+	}
+	.smallheader {
+		display: block;
 	}
 }
 
@@ -498,14 +523,23 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 		display: none !important;
 	}
 	p {
-		font: 28px/2em "JuraRegular", serif !important;
+		font: 20px/2em "JuraRegular", serif !important;
 		color: #000;
 		margin: 10px 0;
+	}
+	h1 {
+		font: 26px/1em "OstrichSansBlack", sans-serif;
 	}
 	#mobile-footer {
 		display: block !important;
 	}
 	#screen-footer {
 		display: none !important;
+	}
+	.header {
+		display: none;
+	}
+	.smallheader {
+		display: block;
 	}
 }

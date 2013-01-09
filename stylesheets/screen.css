@@ -320,7 +320,7 @@ p em {
 
 /* Page Header styles */
 /* line 231, ../sass/screen.scss */
-#header {
+.header {
   height: 200px;
   width: 100%;
   margin: 40px 0 80px 0;
@@ -328,6 +328,24 @@ p em {
 }
 
 /* line 238, ../sass/screen.scss */
+.smallheader {
+  height: 50px;
+  width: 100%;
+  margin: 40px 0 80px 0;
+  background: url(../img/logo-small-mob.png) center center no-repeat transparent;
+  display: none;
+}
+
+/* line 246, ../sass/screen.scss */
+.nav-small {
+  font: 24px "OstrichSansBlack", sans-serif;
+  color: #000;
+  margin: 50px 0 0 0;
+  display: inline-block;
+  height: 50px;
+}
+
+/* line 254, ../sass/screen.scss */
 .nav-left a, .nav-right a {
   font: 48px "OstrichSansBlack", sans-serif;
   color: #000;
@@ -335,104 +353,104 @@ p em {
   display: inline-block;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .nav-left {
   height: 200px;
   float: left;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .nav-right {
   height: 200px;
   float: right;
 }
 
 /* Page content styles */
-/* line 256, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .post-area {
   margin: 0 0 50px 0;
 }
 
-/* line 260, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .post-area img {
   border: 10px solid black;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .post-meta img {
   border: 0 !important;
 }
 
-/* line 268, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .wp-caption-text {
   font: 18px/1.6em "JuraBold", serif;
   margin: 0;
 }
 
-/* line 273, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .post-meta {
   font: 22px/1.6em "JuraRegular", serif;
   float: right;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .post-meta a {
   color: #000;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 p.post-meta {
   margin: 0 0 10px 0;
 }
 
-/* line 286, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .post-meta em {
   font-family: "JuraBoldItalic", serif;
 }
 
-/* line 290, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 .dd_button {
   float: left;
 }
 
-/* line 294, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .categories {
   float: right;
 }
 
-/* line 298, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 p.categories {
   margin: 0;
 }
 
 /* Image float/wrap styles */
-/* line 303, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .alignleft {
   float: left;
   margin: 10px 15px 5px 0;
   text-align: center;
 }
 
-/* line 309, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .alignright {
   float: right;
   margin: 10px 0 5px 15px;
   text-align: center;
 }
 
-/* line 315, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .aligncenter {
   margin: 0 auto;
   text-align: center;
 }
 
 /* Sidebar styles */
-/* line 321, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .search-side {
   margin: 20px 0;
 }
 
-/* line 325, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 .search-side input[type="text"], #FSContact1 input {
   font: 16px "JuraRegular", serif;
   padding: 5px;
@@ -440,31 +458,31 @@ p.categories {
   border: 1px solid #dddddd;
 }
 
-/* line 332, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 ul.recent-posts {
   list-style-type: none;
   font-size: 20px;
   margin: 10px 0;
 }
 
-/* line 338, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 ul.recent-posts li {
   padding: 5px 0;
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 p.about-side:first-letter {
   font: 68px "OstrichSansBold", sans-serif;
   float: left;
   margin: 6px 4px 0 0;
 }
 
-/* line 348, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 div.about-side {
   margin: 20px 0;
 }
 
-/* line 352, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 input[type="submit"] {
   font: 16px "JuraBold", serif !important;
   padding: 5px 10px !important;
@@ -473,30 +491,30 @@ input[type="submit"] {
   border: 1px solid #a43c1c !important;
 }
 
-/* line 360, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .tag-cloud a:hover {
   font-family: "JuraItalic", serif;
 }
 
 /* 404 styles */
-/* line 365, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 p.fourcontent {
   font-size: 24px !important;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .four-wrap {
   background: url(../img/404-bg.png) no-repeat right center;
   height: 500px;
   padding: 20px 0;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .search-404 {
   margin: 20px 0;
 }
 
-/* line 379, ../sass/screen.scss */
+/* line 395, ../sass/screen.scss */
 .search-404 input[type="text"] {
   font: 32px "JuraRegular", serif;
   padding: 10px;
@@ -504,7 +522,7 @@ p.fourcontent {
   border: 1px solid #dddddd;
 }
 
-/* line 386, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 .four-wrap input[type="submit"] {
   font: 32px "JuraRegular", serif !important;
   padding: 8px !important;
@@ -515,37 +533,37 @@ p.fourcontent {
 }
 
 /* Archive page styles */
-/* line 396, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .categories {
   float: none;
 }
 
 /* Gallery styles */
-/* line 401, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 .gallery-item {
   width: auto !important;
   padding-right: 20px;
 }
 
 /* Footer styles */
-/* line 407, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 #footer {
   height: 250px;
   padding: 80px 20px 60px 20px;
 }
 
-/* line 412, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .footer-title {
   font: 72px "OstrichSansBold", sans-serif;
   margin-bottom: 10px;
 }
 
-/* line 417, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 .footer-greeting {
   font: 24px "JuraRegular", serif;
 }
 
-/* line 421, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 .footer-nav {
   height: 70px;
   padding-left: 50px;
@@ -553,59 +571,59 @@ p.fourcontent {
   margin: 20px 0;
 }
 
-/* line 428, ../sass/screen.scss */
+/* line 444, ../sass/screen.scss */
 .footer-nav ul {
   list-style-type: none;
   margin: 10px 0 0 15px;
   display: inline-block;
 }
 
-/* line 434, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 .footer-nav ul li {
   float: left;
   padding-right: 30px;
 }
 
-/* line 439, ../sass/screen.scss */
+/* line 455, ../sass/screen.scss */
 .copyright {
   font: 14px "JuraRegular", serif;
   margin: 0 0 0 15px;
 }
 
-/* line 444, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 .footer-nav ul li a {
   font: 22px "OstrichSansBlack", sans-serif;
   color: #000;
 }
 
-/* line 449, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .contact textarea, .contact input[type="text"], .contact input {
   width: 350px;
   padding: 5px;
   font: 16px "JuraRegular", serif;
 }
 
-/* line 455, ../sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 .contact textarea {
   height: 100px;
 }
 
-/* line 459, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 .contact label {
   font: 22px "OstrichSansBlack", serif;
 }
 
-/* line 463, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 #text-2 {
   list-style-type: none;
 }
 
-/* line 467, ../sass/screen.scss */
+/* line 483, ../sass/screen.scss */
 #fsc-submit-1 {
   width: 385px !important;
 }
 
-/* line 471, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 #FSContact1 input, #FSContact1 textarea {
   font: 16px "JuraRegular", serif !important;
   padding: 5px !important;
@@ -614,48 +632,78 @@ p.fourcontent {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape), only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 480, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #sidebar {
     display: none !important;
   }
 
-  /* line 483, ../sass/screen.scss */
+  /* line 499, ../sass/screen.scss */
   p {
-    font: 28px/2em "JuraRegular", serif !important;
+    font: 20px/2em "JuraRegular", serif !important;
     color: #000;
     margin: 10px 0;
   }
 
-  /* line 488, ../sass/screen.scss */
+  /* line 504, ../sass/screen.scss */
+  h1 {
+    font: 26px/1em "OstrichSansBlack", sans-serif;
+  }
+
+  /* line 507, ../sass/screen.scss */
   #mobile-footer {
     display: block !important;
   }
 
-  /* line 491, ../sass/screen.scss */
+  /* line 510, ../sass/screen.scss */
   #screen-footer {
     display: none !important;
+  }
+
+  /* line 513, ../sass/screen.scss */
+  .header {
+    display: none;
+  }
+
+  /* line 516, ../sass/screen.scss */
+  .smallheader {
+    display: block;
   }
 }
 @media only screen and (max-device-width: 768px) {
-  /* line 497, ../sass/screen.scss */
+  /* line 522, ../sass/screen.scss */
   #sidebar {
     display: none !important;
   }
 
-  /* line 500, ../sass/screen.scss */
+  /* line 525, ../sass/screen.scss */
   p {
-    font: 28px/2em "JuraRegular", serif !important;
+    font: 20px/2em "JuraRegular", serif !important;
     color: #000;
     margin: 10px 0;
   }
 
-  /* line 505, ../sass/screen.scss */
+  /* line 530, ../sass/screen.scss */
+  h1 {
+    font: 26px/1em "OstrichSansBlack", sans-serif;
+  }
+
+  /* line 533, ../sass/screen.scss */
   #mobile-footer {
     display: block !important;
   }
 
-  /* line 508, ../sass/screen.scss */
+  /* line 536, ../sass/screen.scss */
   #screen-footer {
     display: none !important;
+  }
+
+  /* line 539, ../sass/screen.scss */
+  .header {
+    display: none;
+  }
+
+  /* line 542, ../sass/screen.scss */
+  .smallheader {
+    display: block;
   }
 }

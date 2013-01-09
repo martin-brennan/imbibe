@@ -40,12 +40,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="twelvecol">
-					<div id="header">
+					<div class="header">
 						<div class="nav-left">
 							<a href="/">Home</a>
 							<a href="/archive/">Archive</a>
 						</div>
 						<div class="nav-right">
+							<a href="/about/">About</a>
+							<a href="/gallery/">Gallery</a>
+						</div>
+					</div>
+					<div class="smallheader">
+						<div class="nav-small">
+							<a href="/">Home</a>
+							<a href="/archive/">Archive</a>
 							<a href="/about/">About</a>
 							<a href="/gallery/">Gallery</a>
 						</div>
