@@ -13,6 +13,12 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/screen.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/fonts.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png" />
+
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript">
 
