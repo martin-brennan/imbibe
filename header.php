@@ -19,6 +19,8 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/apple-icon-114x114.png" />
 		<link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('template_url'); ?>/apple-icon-144x144.png" />
 
+		<?php wp_head(); ?>
+		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript">
 
