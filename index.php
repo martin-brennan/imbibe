@@ -6,6 +6,7 @@
 				<!-- The Loop -->
 				<?php if (have_posts()) : ?>
 					<?php while (have_posts()) : the_post(); ?>
+					<article>
 						<!-- Post title -->
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
@@ -23,14 +24,16 @@
 						<div class="post-area">
 							<!-- Author and date of the post, as well as edit link. -->
 							<p class="post-meta">Written by <em><?php the_author(); ?></em> on <em><?php the_time('F, j Y'); ?></em></p>
-							<div class="post-share"><?php dd_fblike_generate('Like Button Count') ?><?php dd_twitter_generate('Compact','twitter_username') ?><?php dd_google1_generate('Compact (20px)') ?></div>
 
 							<!-- Post content -->
 							<?php the_content("Read on..."); ?>
 
+							<div class="clearfix"></div>
+							
 							<!-- Post comments -->
 							<p><?php comments_popup_link('Leave a comment', '1 Comment', '% Comments'); ?> <?php edit_post_link('Edit Post'); ?></p>
 						</div>
+					</article>
 					<?php endwhile; ?>
 				<?php endif; ?>
 				<!-- Check if there is more than one page of posts, if there are then display the page navigation links -->

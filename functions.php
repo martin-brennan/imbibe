@@ -1,13 +1,3 @@
-<?php
-add_theme_support( 'post-thumbnails' ); 
-
-function theme_enqueue_less() {
-	wp_enqueue_style('theme-style', get_bloginfo('template_directory').'/css/style.less', array(), '', 'all');
-}
-add_action('wp','theme_enqueue_less');
-if ( function_exists('register_sidebar') )
-    register_sidebar();
-?>
 <?php function advanced_comment($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment; ?>
 	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">

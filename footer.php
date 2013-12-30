@@ -2,14 +2,24 @@
 	
 	<div id="footer" class="container">
 		<div id="screen-footer" class="row">
-			<div class="fivecol">
+			<div class="sixcol">
 				<div class="footer-title">
 					Drop Us A Line
 				</div>
+			</div>
+			<div class="sixcol last">
 				<div class="footer-greeting">
 					We always like to hear from like-minded <br/>
 					contemporaries and liquor connoisseurs.
 				</div>
+				<div class="contact">
+				Hit us up on twitter at <a href="http://twitter.com/mjrbrennandev">@mjrbrennandev</a> or <a href="http://twitter.com/fitzyqld">@fitzyqld</a>!
+				</div>
+			</div>
+		</div>
+		<div id="screen-footer-sub" class="row">
+			<div class="threecol"></div>
+			<div class="sixcol">
 				<div class="footer-nav">
 					<ul>
 						<li><a href="/">Home</a></li>
@@ -20,16 +30,7 @@
 					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan <?php echo strftime("%Y"); ?></p>
 				</div>
 			</div>
-			<div class="onecol">
-
-			</div>
-			<div class="sixcol last">
-				<div class="contact">
-				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-
-				<?php endif; ?>
-				</div>
-			</div>
+			<div class="threecol"></div>
 		</div>
 		<div id="mobile-footer" class="row" style="display: none">
 			<div class="threecol"></div>
@@ -48,7 +49,7 @@
 		</div>
 	</div>
 	<!-- Load javascript files -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cocktails.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cocktails.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/css3-mediaqueries.js"></script>
 	</body>
 </html>

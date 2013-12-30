@@ -18,6 +18,11 @@ $link-blue-light: #7694c5;
 	font-family: "JuraRegular", serif;
 }
 
+// Hide ridiculous social feather image.
+.synved-social-credit {
+	display: none !important;
+}
+
 /* Global styles */
 html {
   -webkit-text-size-adjust: none;
@@ -292,7 +297,7 @@ p em {
 
 .post-meta {
 	font: 22px/1.6em "JuraRegular", serif;
-	float: right;
+	text-align: right;
 }
 
 .post-meta a {
@@ -430,7 +435,7 @@ p.fourcontent {
 }
 
 .footer-title {
-	font: 72px "OstrichSansBold", sans-serif;
+	font: 100px "OstrichSansBold", sans-serif;
 	margin-bottom: 10px;
 }
 
@@ -514,7 +519,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 	#mobile-footer {
 		display: block !important;
 	}
-	#screen-footer {
+	#screen-footer, #screen-footer-sub {
 		display: none !important;
 	}
 	.header {
