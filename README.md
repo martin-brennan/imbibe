@@ -1,0 +1,1 @@
+This repo contains the Wordpress theme for http://www.imbibeblog.com/.
