@@ -2,20 +2,21 @@
 	
 	<div id="footer" class="container">
 		<div id="screen-footer" class="row">
+			<div class="onecol"></div>
 			<div class="sixcol">
 				<div class="footer-title">
 					Drop Us A Line
 				</div>
 			</div>
-			<div class="sixcol last">
+			<div class="fourcol">
 				<div class="footer-greeting">
-					We always like to hear from like-minded <br/>
-					contemporaries and liquor connoisseurs.
-				</div>
-				<div class="contact">
-				Hit us up on twitter at <a href="http://twitter.com/mjrbrennandev">@mjrbrennandev</a> or <a href="http://twitter.com/fitzyqld">@fitzyqld</a>!
-				</div>
+					Hit us up on twitter at <a href="http://twitter.com/imbibeblog">@imbibeblog</a> or email us at <a href="mailto:imbibeblog@gmail.com">imbibeblog@gmail.com</a>!
+				</div> 
+				<!-- <div class="contact">
+					Hit us up on twitter at <a href="http://twitter.com/imbibeblog">@imbibeblog</a> or email us at <a href="mailto:imbibeblog@gmail.com">imbibeblog@gmail.com</a>!
+				</div> -->
 			</div>
+			<div class="onecol last"></div>
 		</div>
 		<div id="screen-footer-sub" class="row">
 			<div class="threecol"></div>
@@ -25,7 +26,7 @@
 						<li><a href="/">Home</a></li>
 						<li><a href="/archive/">Archive</a></li>
 						<li><a href="/about/">About</a></li>
-						<li><a href="/gallery/">Gallery</a></li>
+						<li style="padding: 0;"><a href="/gallery/">Gallery</a></li>
 					</ul>
 					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan <?php echo strftime("%Y"); ?></p>
 				</div>
@@ -40,7 +41,7 @@
 						<li><a href="/">Home</a></li>
 						<li><a href="/archive/">Archive</a></li>
 						<li><a href="/about/">About</a></li>
-						<li><a href="/gallery/">Gallery</a></li>
+						<li style="padding: 0;"><a href="/gallery/">Gallery</a></li>
 					</ul>
 					<p class="copyright">&copy; Michael Fitz-Payne and Martin Brennan <?php echo strftime("%Y"); ?></p>
 				</div>

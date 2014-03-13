@@ -1,0 +1,55 @@
+/* List and table styles */
+ul {
+	list-style-type: disc;
+	margin: 15px 30px;
+}
+
+ol {
+	list-style-type: decimal;
+	margin: 15px 30px;
+}
+
+li strong {
+	font-family: "JuraBold", sans-serif;
+	font-weight: bold;
+}
+
+table {
+	border: 2px solid #000;
+	border-collapse: collapse;
+	margin: 15px 0;
+
+	&.subtitle {
+		border: 0;
+		margin: 0 auto;
+
+		td {
+			border: 0;
+		}
+
+		tr:nth-child(odd) {
+			background-color: transparent;
+		}
+	}
+}
+
+th {
+	background-color: #000;
+	font: 16px "OstrichSansBlack";
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+}
+
+td {
+	font: 16px/1.8em "JuraRegular";
+	color: #000;
+	padding: 10px;
+	text-align: left;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+tr:nth-child(odd) {
+	background-color: #e6e5e0;
+}

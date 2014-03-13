@@ -1,0 +1,71 @@
+/* Headings and font styles and colour variants */
+h1, h1 a, h1 a:visited {
+	font: 140px/1em "OstrichSansBlack", sans-serif;
+	color: #000;
+}
+
+h2 {
+	font: 50px/1em "OstrichSansMedium", sans-serif;
+	margin: 0 0 10px 0;
+	color: #000;
+	letter-spacing: 14px;
+}
+
+h3 {
+	font: 36px/1em "OstrichSansBlack", sans-serif;
+	margin: 25px 0;
+	color: #000;
+}
+
+h4 {
+	font: 24px/1em "JuraBold", serif;
+	color: #000;
+	margin: 20px 0;
+}
+
+h1.navy, h1.navy a, h1.navy a:visited, h2.navy, h2.navy a, h2.navy a:visited {
+	color: $navy-blue;
+}
+
+h1.red, h1.red a, h1.red a:visited, h2.red, h2.red a, h2.navy a:visited {
+	color: $bold-red;
+}
+
+p {
+	font: 18px/2em "JuraRegular", serif;
+	color: #000;
+	margin: 10px 0;
+}
+
+blockquote {
+	border-left: 3px solid #555;
+	padding: 0 20px;
+	margin: 15px 30px;
+}
+
+blockquote p {
+	font: 16px/1.6em "JuraItalic", serif;
+	color: #555;
+}
+
+/* Font weight and emphasis styles */
+strong {
+	font-family: "JuraBold";
+	font-weight: bold;
+}
+
+em {
+	font-family: "JuraItalic";
+	font-style: italic;
+}
+
+/* Navigation & link styles */
+a {
+	text-decoration: none !important;
+	color: $bold-red;
+	cursor: pointer !important;
+}
+
+a:visited {
+	color: $link-blue-light;
+}

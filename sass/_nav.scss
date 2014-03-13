@@ -1,0 +1,31 @@
+/* Page Header styles */
+.header {
+	width: 100%;
+	margin: 20px 0 80px 0;
+	text-align: center;
+}
+
+.smallheader {
+	height: 100px;
+	width: 100%;
+	margin: 40px 0 80px 0;
+	display: none;
+}
+
+.nav-small {
+	text-align: center;
+	a {
+		font: 24px "OstrichSansBlack", sans-serif;
+		color: #000;
+		margin: 120px 0 0 15px;
+		display: inline-block;
+		height: 50px;
+	}
+}
+
+.nav a {
+	font: 48px "OstrichSansBlack", sans-serif;
+	color: #000;
+	margin: 20px 35px 0 35px;
+	display: inline-block;
+}

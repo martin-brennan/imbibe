@@ -1,0 +1,30 @@
+/* 404 styles */
+p.fourcontent {
+	font-size: 24px !important;
+}
+
+.four-wrap {
+	background: url(../img/404-bg.png) no-repeat right center;
+	height: 500px;
+	padding: 20px 0;
+}
+
+.search-404 {
+	margin: 20px 0;
+}
+
+.search-404 input[type="text"] {
+	font: 32px "JuraRegular", serif;
+	padding: 10px;
+	width: 600px;
+	border: 1px solid #ddd;
+}
+
+.four-wrap input[type="submit"] {
+	font: 32px "JuraRegular", serif !important;
+	padding: 8px !important;
+	background-color: $bold-red;
+	color: #fff;
+	border: 1px solid #a43c1c !important;
+	margin: 0 10px;
+}

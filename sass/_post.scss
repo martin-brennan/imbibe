@@ -1,0 +1,52 @@
+/* Page content styles */
+.post-area {
+	margin: 0 auto 50px auto;
+}
+
+.post-area img {
+	border: 10px solid black;
+}
+
+.post-meta img {
+	border: 0 !important;
+}
+
+.wp-caption-text {
+	font: 18px/1.6em "JuraBold", serif;;
+	margin: 0;
+}
+
+.post-meta {
+	font: 18px/1.6em "JuraRegular", serif;
+	text-align: center;
+}
+
+.post-meta a {
+	color: #000;
+}
+
+p.post-meta {
+	margin: 0 0 10px 0;
+}
+
+.post-meta em {
+	font-family: "JuraItalic", serif;
+}
+
+.post-share {
+	margin: 20px 0;
+}
+
+.categories {
+	float: right;
+}
+
+p.categories {
+	margin: 0;
+}
+
+article {
+	h1, h2 {
+		text-align: center;
+	}
+}

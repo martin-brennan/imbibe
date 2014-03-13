@@ -1,0 +1,43 @@
+/* Sidebar styles */
+.search-side {
+	margin: 20px 0;
+}
+
+.search-side input[type="text"], #FSContact1 input {
+	font: 16px "JuraRegular", serif;
+	padding: 5px;
+	width: 250px;
+	border: 1px solid #ddd;
+}
+
+ul.recent-posts {
+	list-style-type: none;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+ul.recent-posts li {
+	padding: 5px 0;
+}
+
+p.about-side:first-letter {
+	font: 68px "OstrichSansBold", sans-serif;
+	float: left;
+	margin: 6px 4px 0 0;
+}
+
+div.about-side {
+	margin: 20px 0;
+}
+
+input[type="submit"] {
+	font: 16px "JuraBold", serif !important;
+	padding: 5px 10px !important;
+	background-color: $bold-red;
+	color: #fff;
+	border: 1px solid #a43c1c !important;
+}
+
+.tag-cloud a:hover {
+	font-family: "JuraItalic", serif;
+}

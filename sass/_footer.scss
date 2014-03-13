@@ -1,0 +1,55 @@
+/* Footer styles */
+#footer {
+	height: 250px;
+	padding: 80px 20px 60px 20px;
+}
+
+.footer-title {
+	font: 100px "OstrichSansBold", sans-serif;
+	margin-bottom: 10px;
+}
+
+.footer-greeting {
+	font: 24px "JuraRegular", serif;
+}
+
+.footer-nav {
+	height: 70px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.footer-nav ul {
+	list-style-type: none;
+	margin: 10px 0 0 15px;
+	display: inline-block;
+}
+
+.footer-nav ul li {
+	float: left;
+	padding-right: 30px;
+}
+
+.copyright {
+	font: 14px "JuraRegular", serif;
+	margin: 0 0 0 15px;
+}
+
+.footer-nav ul li a {
+	font: 22px "OstrichSansBlack", sans-serif;
+	color: #000;
+}
+
+.contact textarea, .contact input[type="text"], .contact input {
+	width: 350px;
+	padding: 5px;
+	font: 16px "JuraRegular", serif;
+}
+
+.contact textarea {
+	height: 100px;
+}
+
+.contact label {
+	font: 22px "OstrichSansBlack", serif;
+}

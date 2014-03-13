@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/ie.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/styles.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/1140.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/ie.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/print.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/screen.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/fonts.css" type="text/css" />
@@ -47,13 +46,13 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 			<div class="row">
-				<div class="twelvecol">
+				<div class="twocol"></div>
+				<div class="eightcol">
 					<div class="header">
-						<div class="nav-left">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" />
+						<div class="nav">
 							<a href="/">Home</a>
 							<a href="/archive/">Archive</a>
-						</div>
-						<div class="nav-right">
 							<a href="/about/">About</a>
 							<a href="/gallery/">Gallery</a>
 						</div>
@@ -67,5 +66,6 @@
 						</div>
 					</div>
 				</div>
+				<div class="twocol"></div>
 			</div>
 		</div>
