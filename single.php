@@ -9,7 +9,7 @@
 					<?php while (have_posts()) : the_post(); ?>
 						<article>
 						<!-- Post title -->
-						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+						<h1 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
 						<!-- Post subtitle -->
 						<?php $subtitle = get_post_meta($post->ID, 'subtitle', $single = true);
@@ -31,11 +31,19 @@
 						<!-- Post content up until <!--more>-->
 						<div class="post-area">
 							<!-- Author and date of the post, as well as edit link. -->
-							<p class="post-meta"><em><?php the_time('l jS F, Y'); ?></em></p>
+							<p class="post-meta"><em><?php the_time('l jS F, Y'); ?></em> — <?php comments_popup_link('Leave a comment', '1 Comment', '% Comments'); ?> <?php edit_post_link('Edit Post'); ?></p>
 							
 							<!-- Categories of the post & edit post link-->
-							<p class="categories">Posted under <?php the_category(', '); ?> <?php edit_post_link('Edit Post'); ?></p>
-							<div class="clearfix"></div>
+							<table style="width: 100%; border: 0;">
+								<tr style="background-color: transparent;">
+									<td style="border: 0;">
+										<?php echo dvk_social_sharing(); ?>
+									</td>
+									<td style="text-align:right; border: 0;">
+										<p>Posted under <em><?php the_category(', '); ?></em> <?php edit_post_link('Edit Post'); ?>.</p>
+									</td>
+								</tr>
+							</table>
 
 							<!-- Post content -->
 							<?php the_content(); ?>

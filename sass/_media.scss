@@ -1,3 +1,40 @@
+@media all and (max-width: 600px) {
+	.onecol {
+		display: none;
+	}
+	.tencol {
+		width: 100% !important;
+	}
+
+	article {
+	  h1, h1 a, h1 a:visited {
+	  	font: 100px/1em "OstrichSansBlack", sans-serif;
+	  }
+	  h2 {
+	  	font: 35px/1em "OstrichSansMedium", sans-serif;
+	  }
+	}
+	.dvk-social-sharing > a {
+		margin-left: 0 !important;
+	}
+
+	.header {
+		img.logo {
+			width: 70px !important;
+		}
+		margin: 20px 0 !important;
+	}
+
+	.nav a {
+		font: 28px "OstrichSansBlack", sans-serif !important;
+		margin: 10px 2px;
+	}
+
+	.row .eightcol, .row .sixcol {
+		width: 100% !important;
+	}
+}
+/*
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape),
 only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	#sidebar {
@@ -55,4 +92,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 	.smallheader {
 		display: block;
 	}
-}
+	.onecol {
+		display: none;
+	}
+} */

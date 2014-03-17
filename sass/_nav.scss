@@ -29,3 +29,26 @@
 	margin: 20px 35px 0 35px;
 	display: inline-block;
 }
+
+.pager {
+	a {
+		color: white;
+		padding: 10px;
+		background-color: $bold-red;
+	}
+	table {
+		tr {
+			background-color: transparent;
+		}
+		border: 0;
+		td {
+			border: 0;
+		}
+	}
+}
+
+.header {
+	img.logo {
+		width: 150px;
+	}
+}

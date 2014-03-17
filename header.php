@@ -20,7 +20,6 @@
 
 		<?php wp_head(); ?>
 		
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -49,7 +48,7 @@
 				<div class="twocol"></div>
 				<div class="eightcol">
 					<div class="header">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" />
+						<img class="logo" src="<?php bloginfo('stylesheet_directory'); ?>/img/logo.png" />
 						<div class="nav">
 							<a href="/">Home</a>
 							<a href="/archive/">Archive</a>

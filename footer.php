@@ -50,7 +50,7 @@
 		</div>
 	</div>
 	<!-- Load javascript files -->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cocktails.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cocktails.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/css3-mediaqueries.js"></script>
 	</body>
 </html>
