@@ -38,6 +38,13 @@ input[type="submit"] {
 	border: 1px solid #a43c1c !important;
 }
 
+.searchform input[type="text"] {
+	font: 18px "JuraRegular", serif;
+	padding: 5px;
+	border: 1px solid #ddd;
+	margin: 20px 0;
+}
+
 .tag-cloud a:hover {
 	font-family: "JuraItalic", serif;
 }

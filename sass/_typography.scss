@@ -1,11 +1,11 @@
 /* Headings and font styles and colour variants */
 h1, h1 a, h1 a:visited {
-	font: 140px/1em "OstrichSansBlack", sans-serif;
+	font: 110px/1em "OstrichSansBlack", sans-serif;
 	color: #000;
 }
 
 h2 {
-	font: 50px/1em "OstrichSansMedium", sans-serif;
+	font: 40px/1em "OstrichSansMedium", sans-serif;
 	margin: 0 0 10px 0;
 	color: #000;
 	letter-spacing: 14px;
@@ -13,7 +13,7 @@ h2 {
 
 h3 {
 	font: 36px/1em "OstrichSansBlack", sans-serif;
-	margin: 25px 0;
+	margin: 5px 0;
 	color: #000;
 }
 
@@ -23,11 +23,11 @@ h4 {
 	margin: 20px 0;
 }
 
-h1.navy, h1.navy a, h1.navy a:visited, h2.navy, h2.navy a, h2.navy a:visited {
+h1.navy, h1.navy a, h1.navy a:visited, h2.navy, h2.navy a, h2.navy a:visited, h3.navy {
 	color: $navy-blue;
 }
 
-h1.red, h1.red a, h1.red a:visited, h2.red, h2.red a, h2.navy a:visited {
+h1.red, h1.red a, h1.red a:visited, h2.red, h2.red a, h2.navy a:visited, h3.red {
 	color: $bold-red;
 }
 

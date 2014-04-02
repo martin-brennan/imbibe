@@ -15,10 +15,19 @@
 .post-meta {
 	font: 18px/1.6em "JuraRegular", serif;
 	text-align: center;
+	margin: 0 0 10px 0;
 }
 
-p.post-meta {
-	margin: 0 0 10px 0;
+.search-meta {
+	font: 14px/1em "JuraRegular", serif !important;
+	margin: 0;
+}
+
+article.search {
+	margin: 20px 0;
+	p {
+		font: 16px/2em "JuraRegular", serif;
+	}
 }
 
 .post-meta em {

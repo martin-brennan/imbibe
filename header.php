@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,7 +11,6 @@
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/1140/1140.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/print.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/screen.css" type="text/css" />
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/stylesheets/fonts.css" type="text/css" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('template_url'); ?>/apple-icon-57x57.png" />
@@ -35,14 +35,6 @@
 		</script>
 	</head>
 	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=160314200722372";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 			<div class="row">
 				<div class="twocol"></div>

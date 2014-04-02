@@ -17,10 +17,10 @@ Template Name: Archives with Content
 			   <?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
 			  </div>
 			</div>
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 			<?php endwhile; endif; ?>			
 			<div>
-
+				
+				<?php get_search_form(); ?>
 				<h2>Archives by Month:</h2>
 				<ul>
 					<?php wp_get_archives('type=monthly'); ?>
